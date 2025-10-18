@@ -67,6 +67,43 @@ const translations = {
     'faq.q6': 'Offrez-vous des services d\'urgence?',
     'faq.a6': 'Oui, nous offrons des services de nettoyage d\'urgence pour les situations imprévues comme les dégâts, les préparations d\'événements de dernière minute, etc.',
     
+    // Certifications
+    'certifications.title': 'Certifications & Affiliations',
+    'certifications.subtitle': 'Reconnus par les plus grandes associations de l\'industrie du nettoyage',
+    'certifications.issa': 'Association Internationale de l\'Industrie du Nettoyage',
+    'certifications.bscai': 'Association des Entrepreneurs en Entretien des Bâtiments',
+    'certifications.cnesst': 'Commission des Normes, de l\'Équité, de la Santé et de la Sécurité du Travail',
+    'certifications.cpeep': 'Comité Paritaire de l\'Entretien d\'Édifices Publics',
+    
+    // Testimonials
+    'testimonials.title': 'Ce que disent nos clients',
+    'testimonials.subtitle': 'Des retours authentiques de clients satisfaits',
+    'testimonials.client1.name': 'Marie Dubois',
+    'testimonials.client1.company': 'Directrice, Tech Solutions Inc.',
+    'testimonials.client1.text': 'Service impeccable depuis 3 ans. L\'équipe est professionnelle, ponctuelle et nos bureaux n\'ont jamais été aussi propres.',
+    'testimonials.client2.name': 'Jean Tremblay',
+    'testimonials.client2.company': 'Propriétaire, Boutique Élégance',
+    'testimonials.client2.text': 'Simple Service a transformé l\'entretien de notre commerce. Le système de gestion numérique nous garde toujours informés.',
+    'testimonials.client3.name': 'Sophie Martin',
+    'testimonials.client3.company': 'Gestionnaire d\'Événements',
+    'testimonials.client3.text': 'Ils ont sauvé notre gala! Service d\'urgence rapide et efficace. Je les recommande sans hésitation.',
+    
+    // Case Studies
+    'caseStudies.title': 'Études de Cas',
+    'caseStudies.subtitle': 'Résultats concrets pour nos clients',
+    'caseStudies.challengeLabel': 'Défi',
+    'caseStudies.resultLabel': 'Résultat',
+    'caseStudies.improvement': 'Amélioration',
+    'caseStudies.case1.title': 'Tour de Bureaux - Centre-Ville',
+    'caseStudies.case1.challenge': 'Immeuble de 15 étages nécessitant un nettoyage quotidien avec des standards élevés',
+    'caseStudies.case1.result': 'Système de gestion numérique assurant la qualité constante et réduction des plaintes',
+    'caseStudies.case2.title': 'Centre Commercial',
+    'caseStudies.case2.challenge': 'Coordination de nettoyage pour 50+ boutiques avec horaires variables',
+    'caseStudies.case2.result': 'Planification optimisée et satisfaction client maximale',
+    'caseStudies.case3.title': 'Campus Corporatif',
+    'caseStudies.case3.challenge': 'Transition vers des produits écologiques sans compromettre la qualité',
+    'caseStudies.case3.result': 'Certification verte obtenue avec réduction des coûts d\'approvisionnement',
+    
     // Footer
     'footer.tagline': 'Simple. Propre. Professionnel.',
     'footer.location': 'Montréal, Québec',
@@ -129,6 +166,43 @@ const translations = {
     'faq.a5': 'Contact us via the form above, by phone, or email. We\'ll schedule a free assessment of your premises to provide you with a detailed quote.',
     'faq.q6': 'Do you offer emergency services?',
     'faq.a6': 'Yes, we offer emergency cleaning services for unexpected situations like spills, last-minute event preparations, etc.',
+    
+    // Certifications
+    'certifications.title': 'Certifications & Affiliations',
+    'certifications.subtitle': 'Recognized by the industry\'s leading cleaning associations',
+    'certifications.issa': 'International Sanitary Supply Association',
+    'certifications.bscai': 'Building Service Contractors Association International',
+    'certifications.cnesst': 'Quebec Workers\' Compensation Board',
+    'certifications.cpeep': 'Joint Committee for Public Building Maintenance',
+    
+    // Testimonials
+    'testimonials.title': 'What Our Clients Say',
+    'testimonials.subtitle': 'Authentic feedback from satisfied clients',
+    'testimonials.client1.name': 'Marie Dubois',
+    'testimonials.client1.company': 'Director, Tech Solutions Inc.',
+    'testimonials.client1.text': 'Impeccable service for 3 years. The team is professional, punctual and our offices have never been cleaner.',
+    'testimonials.client2.name': 'Jean Tremblay',
+    'testimonials.client2.company': 'Owner, Boutique Élégance',
+    'testimonials.client2.text': 'Simple Service transformed our store\'s maintenance. The digital management system keeps us always informed.',
+    'testimonials.client3.name': 'Sophie Martin',
+    'testimonials.client3.company': 'Event Manager',
+    'testimonials.client3.text': 'They saved our gala! Fast and efficient emergency service. I recommend them without hesitation.',
+    
+    // Case Studies
+    'caseStudies.title': 'Case Studies',
+    'caseStudies.subtitle': 'Real results for our clients',
+    'caseStudies.challengeLabel': 'Challenge',
+    'caseStudies.resultLabel': 'Result',
+    'caseStudies.improvement': 'Improvement',
+    'caseStudies.case1.title': 'Downtown Office Tower',
+    'caseStudies.case1.challenge': '15-story building requiring daily cleaning with high standards',
+    'caseStudies.case1.result': 'Digital management system ensuring consistent quality and reduced complaints',
+    'caseStudies.case2.title': 'Shopping Center',
+    'caseStudies.case2.challenge': 'Coordinating cleaning for 50+ stores with variable schedules',
+    'caseStudies.case2.result': 'Optimized scheduling and maximum client satisfaction',
+    'caseStudies.case3.title': 'Corporate Campus',
+    'caseStudies.case3.challenge': 'Transition to eco-friendly products without compromising quality',
+    'caseStudies.case3.result': 'Green certification achieved with reduced supply costs',
     
     // Footer
     'footer.tagline': 'Simple. Clean. Professional.',
