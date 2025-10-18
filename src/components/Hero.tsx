@@ -22,7 +22,7 @@ export const Hero = () => {
             <>Commercial cleaning, <span className="text-accent-blue">simplified</span>.</>
           )}
         </h1>
-        <p className="text-lg md:text-xl text-silver max-w-3xl mx-auto mb-12 animate-fade-in-delay leading-relaxed">
+        <p className="text-lg md:text-xl text-silver max-w-3xl mx-auto mb-16 animate-fade-in-delay leading-relaxed">
           {t('hero.subheadline')}
         </p>
         <Button
