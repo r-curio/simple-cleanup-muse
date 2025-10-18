@@ -30,6 +30,9 @@ export const GallerySection = () => {
     <section className="section-padding bg-muted/20">
       <div className="container-custom">
         <div className="text-center mb-12 animate-fade-in">
+          <div className="inline-block mb-6 px-4 py-2 rounded-full bg-accent-blue/10 text-accent-blue text-sm font-medium">
+            {t('gallery.badge')}
+          </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             {t('gallery.title')}
           </h2>

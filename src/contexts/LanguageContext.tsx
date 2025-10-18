@@ -105,6 +105,7 @@ const translations = {
     'caseStudies.case3.result': 'Certification verte obtenue avec réduction des coûts d\'approvisionnement',
     
     // Gallery
+    'gallery.badge': 'Entreprise de nettoyage la mieux notée au Canada',
     'gallery.title': 'Notre Travail en Action',
     'gallery.subtitle': 'Découvrez notre expertise à travers nos réalisations',
     
@@ -209,6 +210,7 @@ const translations = {
     'caseStudies.case3.result': 'Green certification achieved with reduced supply costs',
     
     // Gallery
+    'gallery.badge': 'Top-rated cleaning company in Canada',
     'gallery.title': 'Our Work in Action',
     'gallery.subtitle': 'See our expertise through our completed projects',
     
