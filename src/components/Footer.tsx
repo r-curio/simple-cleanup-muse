@@ -11,7 +11,7 @@ export const Footer = () => {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-light mb-4">Simple</h3>
+            <h3 className="text-2xl font-light mb-4">Simple.</h3>
             <p className="text-silver-muted italic">
               {t('footer.tagline')}
             </p>

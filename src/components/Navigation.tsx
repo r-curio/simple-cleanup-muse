@@ -17,7 +17,7 @@ export const Navigation = () => {
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="text-2xl font-light tracking-tight hover:text-silver transition-colors"
           >
-            Simple
+            Simple.
           </button>
           
           {/* Navigation Links */}
