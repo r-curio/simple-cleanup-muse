@@ -12,8 +12,18 @@ export const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center section-padding">
       <div className="container-custom text-center">
-        <div className="inline-block mb-6 px-4 py-2 rounded-full bg-accent-blue/10 text-accent-blue text-sm font-medium animate-fade-in">
-          {t('gallery.badge')}
+        <div className="inline-block mb-6 px-4 py-2 rounded-full bg-accent-blue/10 text-accent-blue text-sm font-medium animate-fade-in text-center">
+          {language === 'fr' ? (
+            <>
+              L'une des entreprises de nettoyage<br />
+              les mieux notées au Canada
+            </>
+          ) : (
+            <>
+              One of the top-rated<br />
+              cleaning companies in Canada
+            </>
+          )}
         </div>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-light tracking-tight mb-8 animate-fade-in">
           {language === 'fr' ? (
