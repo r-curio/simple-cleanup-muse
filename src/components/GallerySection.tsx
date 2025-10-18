@@ -13,6 +13,7 @@ export const GallerySection = () => {
   const { t } = useLanguage();
 
   const images = [
+    { src: galleryOffice2, alt: 'Office desk cleaning' },
     { src: galleryOffice1, alt: 'Office floor cleaning' },
     { src: galleryTeam, alt: 'Professional cleaning team' },
     { src: galleryCarpet, alt: 'Carpet cleaning service' },
@@ -21,7 +22,6 @@ export const GallerySection = () => {
     { src: gallerySurface, alt: 'Surface disinfection' },
     { src: galleryFloor, alt: 'Floor maintenance' },
     { src: galleryEntrance, alt: 'Commercial entrance cleaning' },
-    { src: galleryOffice2, alt: 'Office desk cleaning' },
   ];
 
   return (
