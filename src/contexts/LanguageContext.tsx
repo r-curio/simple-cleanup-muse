@@ -21,7 +21,7 @@ const translations = {
     'hero.cta': 'Demandez une soumission gratuite',
     
     // Trust
-    'trust.official': 'Fournisseur officiel du Grand Prix de Montréal',
+    'trust.official': 'La confiance de clients d\'envergure',
     'trust.subtitle': 'Des clients d\'envergure nous font confiance pour la qualité, la constance et la discrétion.',
     
     // Services
@@ -66,7 +66,7 @@ const translations = {
     'hero.cta': 'Get a free quote',
     
     // Trust
-    'trust.official': 'Official supplier of the Montreal Grand Prix',
+    'trust.official': 'Trusted by major clients',
     'trust.subtitle': 'Major clients trust us for quality, consistency and discretion.',
     
     // Services
