@@ -17,16 +17,19 @@ export const TrustSection = () => {
           {t('trust.subtitle')}
         </p>
         
-        {/* Placeholder for client logos */}
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto opacity-40">
-          {[1, 2, 3, 4].map((i) => (
-            <div
-              key={i}
-              className="aspect-video bg-muted rounded-lg flex items-center justify-center border border-border"
-            >
-              <span className="text-xs text-silver-muted">Client Logo</span>
-            </div>
-          ))}
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-12 max-w-3xl mx-auto">
+          <div className="text-center">
+            <div className="text-4xl font-light text-accent-blue mb-2">10+</div>
+            <p className="text-silver-muted">{t('trust.years')}</p>
+          </div>
+          <div className="text-center">
+            <div className="text-4xl font-light text-accent-blue mb-2">500+</div>
+            <p className="text-silver-muted">{t('trust.clients')}</p>
+          </div>
+          <div className="text-center">
+            <div className="text-4xl font-light text-accent-blue mb-2">100%</div>
+            <p className="text-silver-muted">{t('trust.satisfaction')}</p>
+          </div>
         </div>
       </div>
     </section>

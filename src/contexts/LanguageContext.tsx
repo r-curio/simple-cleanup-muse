@@ -23,6 +23,9 @@ const translations = {
     // Trust
     'trust.official': 'La confiance de clients d\'envergure',
     'trust.subtitle': 'Des clients d\'envergure nous font confiance pour la qualité, la constance et la discrétion.',
+    'trust.years': 'Années d\'expérience',
+    'trust.clients': 'Clients satisfaits',
+    'trust.satisfaction': 'Taux de satisfaction',
     
     // Services
     'services.title': 'Nos Services',
@@ -68,6 +71,9 @@ const translations = {
     // Trust
     'trust.official': 'Trusted by major clients',
     'trust.subtitle': 'Major clients trust us for quality, consistency and discretion.',
+    'trust.years': 'Years of experience',
+    'trust.clients': 'Satisfied clients',
+    'trust.satisfaction': 'Satisfaction rate',
     
     // Services
     'services.title': 'Our Services',
