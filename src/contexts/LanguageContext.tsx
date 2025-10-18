@@ -104,6 +104,10 @@ const translations = {
     'caseStudies.case3.challenge': 'Transition vers des produits écologiques sans compromettre la qualité',
     'caseStudies.case3.result': 'Certification verte obtenue avec réduction des coûts d\'approvisionnement',
     
+    // Gallery
+    'gallery.title': 'Notre Travail en Action',
+    'gallery.subtitle': 'Découvrez notre expertise à travers nos réalisations',
+    
     // Footer
     'footer.tagline': 'Simple. Propre. Professionnel.',
     'footer.location': 'Montréal, Québec',
@@ -203,6 +207,10 @@ const translations = {
     'caseStudies.case3.title': 'Corporate Campus',
     'caseStudies.case3.challenge': 'Transition to eco-friendly products without compromising quality',
     'caseStudies.case3.result': 'Green certification achieved with reduced supply costs',
+    
+    // Gallery
+    'gallery.title': 'Our Work in Action',
+    'gallery.subtitle': 'See our expertise through our completed projects',
     
     // Footer
     'footer.tagline': 'Simple. Clean. Professional.',
