@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 
 export const Hero = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
   const scrollToContact = () => {
     document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
@@ -13,7 +13,11 @@ export const Hero = () => {
     <section className="min-h-screen flex items-center justify-center section-padding">
       <div className="container-custom text-center">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-light tracking-tight mb-8 animate-fade-in">
-          {t('hero.headline')}
+          {language === 'fr' ? (
+            <>Nettoyage commercial <span className="text-accent-blue">simplifié</span>.</>
+          ) : (
+            <>Commercial cleaning, <span className="text-accent-blue">simplified</span>.</>
+          )}
         </h1>
         <p className="text-lg md:text-xl text-silver max-w-3xl mx-auto mb-12 animate-fade-in-delay leading-relaxed">
           {t('hero.subheadline')}

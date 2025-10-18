@@ -42,6 +42,7 @@ All colors MUST be HSL.
     /* Custom tokens for premium feel */
     --silver: 0 0% 75%;
     --silver-muted: 0 0% 50%;
+    --accent-blue: 217 91% 60%;
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
