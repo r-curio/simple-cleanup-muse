@@ -1,27 +1,29 @@
 import { useLanguage } from '@/contexts/LanguageContext';
-import galleryOffice1 from '@/assets/gallery-office-1.jpg';
-import galleryTeam from '@/assets/gallery-team.webp';
-import galleryCarpet from '@/assets/gallery-carpet.webp';
-import galleryWindows from '@/assets/gallery-windows.webp';
-import galleryBathroom from '@/assets/gallery-bathroom.jpg';
-import gallerySurface from '@/assets/gallery-surface.png';
-import galleryFloor from '@/assets/gallery-floor.webp';
-import galleryEntrance from '@/assets/gallery-entrance.jpg';
-import galleryOffice2 from '@/assets/gallery-office-2.webp';
+import gallerySchoolHallway from '@/assets/gallery-school-hallway.webp';
+import galleryClassroom from '@/assets/gallery-classroom.jpg';
+import galleryHospital from '@/assets/gallery-hospital.png';
+import galleryKitchen from '@/assets/gallery-kitchen.jpg';
+import galleryOfficeFloor from '@/assets/gallery-office-floor.jpg';
+import galleryCleaningTeam from '@/assets/gallery-cleaning-team.webp';
+import galleryCarpetMachine from '@/assets/gallery-carpet-machine.webp';
+import galleryOfficeDesk from '@/assets/gallery-office-desk.webp';
+import galleryBathroom from '@/assets/gallery-bathroom-clean.jpg';
+import galleryOfficeVacuum from '@/assets/gallery-office-vacuum.png';
 
 export const GallerySection = () => {
   const { t } = useLanguage();
 
   const images = [
-    { src: galleryOffice2, alt: 'Office desk cleaning' },
-    { src: galleryOffice1, alt: 'Office floor cleaning' },
-    { src: galleryTeam, alt: 'Professional cleaning team' },
-    { src: galleryCarpet, alt: 'Carpet cleaning service' },
-    { src: galleryWindows, alt: 'Window cleaning exterior' },
-    { src: galleryBathroom, alt: 'Bathroom sanitation' },
-    { src: gallerySurface, alt: 'Surface disinfection' },
-    { src: galleryFloor, alt: 'Floor maintenance' },
-    { src: galleryEntrance, alt: 'Commercial entrance cleaning' },
+    { src: galleryOfficeDesk, alt: 'Office desk cleaning' },
+    { src: gallerySchoolHallway, alt: 'School hallway floor cleaning' },
+    { src: galleryClassroom, alt: 'Classroom desk sanitization' },
+    { src: galleryHospital, alt: 'Medical facility cleaning' },
+    { src: galleryKitchen, alt: 'Restaurant kitchen cleaning' },
+    { src: galleryOfficeFloor, alt: 'Office floor maintenance' },
+    { src: galleryCleaningTeam, alt: 'Professional cleaning team' },
+    { src: galleryCarpetMachine, alt: 'Carpet deep cleaning' },
+    { src: galleryBathroom, alt: 'Bathroom sanitization' },
+    { src: galleryOfficeVacuum, alt: 'Office carpet vacuuming' },
   ];
 
   return (
