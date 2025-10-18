@@ -31,14 +31,14 @@ export const Footer = () => {
           <div>
             <div className="flex items-center gap-3 mb-3">
               <Mail className="h-5 w-5 text-silver" />
-              <a href="mailto:contact@simple-cleaning.ca" className="text-silver hover:text-foreground transition-colors">
-                contact@simple-cleaning.ca
+              <a href="mailto:info@ssimple.ca" className="text-silver hover:text-foreground transition-colors">
+                info@ssimple.ca
               </a>
             </div>
             <div className="flex items-center gap-3">
               <Phone className="h-5 w-5 text-silver" />
-              <a href="tel:+15145551234" className="text-silver hover:text-foreground transition-colors">
-                (514) 555-1234
+              <a href="tel:+15142376303" className="text-silver hover:text-foreground transition-colors">
+                (514) 237-6303
               </a>
             </div>
           </div>

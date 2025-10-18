@@ -52,6 +52,21 @@ const translations = {
     'contact.submit': 'Envoyer',
     'contact.success': 'Message envoyé avec succès! Nous vous contacterons bientôt.',
     
+    // FAQ
+    'faq.title': 'Questions Fréquentes',
+    'faq.q1': 'À quelle fréquence recommandez-vous le nettoyage commercial?',
+    'faq.a1': 'Cela dépend de votre type d\'entreprise et de l\'achalandage. La plupart des bureaux optent pour un nettoyage quotidien ou hebdomadaire, tandis que les commerces de détail préfèrent souvent un service quotidien.',
+    'faq.q2': 'Utilisez-vous des produits écologiques?',
+    'faq.a2': 'Oui, nous offrons des options de nettoyage écologiques avec des produits certifiés respectueux de l\'environnement. Nous pouvons adapter nos méthodes selon vos préférences.',
+    'faq.q3': 'Êtes-vous assurés et cautionnés?',
+    'faq.a3': 'Absolument. Nous sommes entièrement assurés et cautionnés pour votre tranquillité d\'esprit et la protection de vos locaux.',
+    'faq.q4': 'Puis-je personnaliser mon plan de nettoyage?',
+    'faq.a4': 'Certainement! Nous créons des plans de nettoyage sur mesure adaptés à vos besoins spécifiques, votre budget et votre horaire.',
+    'faq.q5': 'Comment obtenez-vous une soumission?',
+    'faq.a5': 'Contactez-nous via le formulaire ci-dessus, par téléphone ou courriel. Nous planifierons une évaluation gratuite de vos locaux pour vous fournir une soumission détaillée.',
+    'faq.q6': 'Offrez-vous des services d\'urgence?',
+    'faq.a6': 'Oui, nous offrons des services de nettoyage d\'urgence pour les situations imprévues comme les dégâts, les préparations d\'événements de dernière minute, etc.',
+    
     // Footer
     'footer.tagline': 'Simple. Propre. Professionnel.',
     'footer.location': 'Montréal, Québec',
@@ -99,6 +114,21 @@ const translations = {
     'contact.message': 'Message',
     'contact.submit': 'Submit',
     'contact.success': 'Message sent successfully! We will contact you soon.',
+    
+    // FAQ
+    'faq.title': 'Frequently Asked Questions',
+    'faq.q1': 'How often do you recommend commercial cleaning?',
+    'faq.a1': 'It depends on your business type and foot traffic. Most offices opt for daily or weekly cleaning, while retail spaces often prefer daily service.',
+    'faq.q2': 'Do you use eco-friendly products?',
+    'faq.a2': 'Yes, we offer green cleaning options with certified environmentally-friendly products. We can tailor our methods to your preferences.',
+    'faq.q3': 'Are you insured and bonded?',
+    'faq.a3': 'Absolutely. We are fully insured and bonded for your peace of mind and the protection of your premises.',
+    'faq.q4': 'Can I customize my cleaning plan?',
+    'faq.a4': 'Certainly! We create custom cleaning plans tailored to your specific needs, budget, and schedule.',
+    'faq.q5': 'How do I get a quote?',
+    'faq.a5': 'Contact us via the form above, by phone, or email. We\'ll schedule a free assessment of your premises to provide you with a detailed quote.',
+    'faq.q6': 'Do you offer emergency services?',
+    'faq.a6': 'Yes, we offer emergency cleaning services for unexpected situations like spills, last-minute event preparations, etc.',
     
     // Footer
     'footer.tagline': 'Simple. Clean. Professional.',
