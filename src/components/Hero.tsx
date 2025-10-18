@@ -12,6 +12,9 @@ export const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center section-padding">
       <div className="container-custom text-center">
+        <div className="inline-block mb-6 px-4 py-2 rounded-full bg-accent-blue/10 text-accent-blue text-sm font-medium animate-fade-in">
+          {t('gallery.badge')}
+        </div>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-light tracking-tight mb-8 animate-fade-in">
           {language === 'fr' ? (
             <>Nettoyage commercial <span className="text-accent-blue">simplifié</span>.</>
