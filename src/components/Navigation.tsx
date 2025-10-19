@@ -1,6 +1,6 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { LanguageToggle } from './LanguageToggle';
-import { Star } from 'lucide-react';
+import { Sparkle } from 'lucide-react';
 
 export const Navigation = () => {
   const { t } = useLanguage();
@@ -18,7 +18,7 @@ export const Navigation = () => {
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="text-2xl font-light tracking-tight hover:text-silver transition-colors flex items-center gap-2"
           >
-            <Star className="w-5 h-5 fill-foreground text-foreground" strokeLinejoin="round" strokeLinecap="round" />
+            <Sparkle className="w-5 h-5 fill-foreground text-foreground" />
             Simple.
           </button>
           
