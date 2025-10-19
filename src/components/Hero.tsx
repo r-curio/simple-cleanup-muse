@@ -1,6 +1,6 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Star } from 'lucide-react';
 
 export const Hero = () => {
   const { t, language } = useLanguage();
@@ -13,6 +13,11 @@ export const Hero = () => {
     <section className="min-h-screen flex items-center justify-center section-padding">
       <div className="container-custom text-center">
         <div className="inline-block mb-6 px-4 py-2 rounded-full bg-accent-blue/10 text-accent-blue text-sm font-medium animate-fade-in text-center">
+          <div className="flex gap-1 justify-center mb-1">
+            {[...Array(5)].map((_, i) => (
+              <Star key={i} className="w-4 h-4 fill-accent-blue" />
+            ))}
+          </div>
           {language === 'fr' ? (
             <>
               5 étoiles sur Google<br />
