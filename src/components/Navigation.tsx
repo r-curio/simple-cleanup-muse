@@ -1,5 +1,6 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { LanguageToggle } from './LanguageToggle';
+import { Star } from 'lucide-react';
 
 export const Navigation = () => {
   const { t } = useLanguage();
@@ -15,8 +16,9 @@ export const Navigation = () => {
           {/* Logo */}
           <button 
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="text-2xl font-light tracking-tight hover:text-silver transition-colors"
+            className="text-2xl font-light tracking-tight hover:text-silver transition-colors flex items-center gap-2"
           >
+            <Star className="w-5 h-5 text-foreground" strokeLinejoin="round" strokeLinecap="round" />
             Simple.
           </button>
           
