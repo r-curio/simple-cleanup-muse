@@ -1,6 +1,8 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { LanguageToggle } from './LanguageToggle';
-import { Sparkle } from 'lucide-react';
+import { Sparkle, Menu } from 'lucide-react';
+import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import { Button } from '@/components/ui/button';
 
 export const Navigation = () => {
   const { t } = useLanguage();
@@ -8,6 +10,7 @@ export const Navigation = () => {
   const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
   };
+
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
@@ -22,7 +25,7 @@ export const Navigation = () => {
             Simple.
           </button>
           
-          {/* Navigation Links */}
+          {/* Desktop Navigation Links */}
           <div className="hidden md:flex items-center gap-8">
             <button
               onClick={() => scrollToSection('services')}
@@ -44,8 +47,51 @@ export const Navigation = () => {
             </button>
           </div>
           
-          {/* Language Toggle */}
-          <LanguageToggle />
+          {/* Mobile & Desktop Right Side */}
+          <div className="flex items-center gap-4">
+            <LanguageToggle />
+            
+            {/* Mobile Menu */}
+            <Sheet>
+              <SheetTrigger asChild>
+                <Button variant="ghost" size="icon" className="md:hidden">
+                  <Menu className="h-5 w-5" />
+                  <span className="sr-only">Toggle menu</span>
+                </Button>
+              </SheetTrigger>
+              <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+                <nav className="flex flex-col gap-6 mt-8">
+                  <button
+                    onClick={() => {
+                      scrollToSection('services');
+                      document.querySelector('[data-state="open"]')?.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape' }));
+                    }}
+                    className="text-lg text-silver-muted hover:text-foreground transition-colors text-left"
+                  >
+                    {t('nav.services')}
+                  </button>
+                  <button
+                    onClick={() => {
+                      scrollToSection('about');
+                      document.querySelector('[data-state="open"]')?.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape' }));
+                    }}
+                    className="text-lg text-silver-muted hover:text-foreground transition-colors text-left"
+                  >
+                    {t('nav.about')}
+                  </button>
+                  <button
+                    onClick={() => {
+                      scrollToSection('contact');
+                      document.querySelector('[data-state="open"]')?.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape' }));
+                    }}
+                    className="text-lg text-silver-muted hover:text-foreground transition-colors text-left"
+                  >
+                    {t('nav.contact')}
+                  </button>
+                </nav>
+              </SheetContent>
+            </Sheet>
+          </div>
         </div>
       </div>
     </nav>
