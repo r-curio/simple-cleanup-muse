@@ -18,7 +18,7 @@ export const Navigation = () => {
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="text-2xl font-light tracking-tight hover:text-silver transition-colors flex items-center gap-2"
           >
-            <Star className="w-5 h-5 text-foreground" strokeLinejoin="round" strokeLinecap="round" />
+            <Star className="w-5 h-5 fill-foreground text-foreground" strokeLinejoin="round" strokeLinecap="round" />
             Simple.
           </button>
           
