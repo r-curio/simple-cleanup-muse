@@ -9,7 +9,7 @@ import { z } from 'zod';
 
 // Update this with your WhatsApp number (format: country code + number, no spaces or special characters)
 // Example: "12345678901" for +1 (234) 567-8901
-const WHATSAPP_NUMBER = "1234567890"; // Replace with actual WhatsApp number
+const WHATSAPP_NUMBER = "15145724535";
 
 const contactSchema = z.object({
   name: z.string().trim().min(1, "Name is required").max(100, "Name must be less than 100 characters"),
