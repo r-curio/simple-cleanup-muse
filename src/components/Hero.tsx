@@ -15,13 +15,13 @@ export const Hero = () => {
         <div className="inline-block mb-6 px-4 py-2 rounded-full bg-accent-blue/10 text-accent-blue text-sm font-medium animate-fade-in text-center">
           {language === 'fr' ? (
             <>
-              L'une des entreprises de nettoyage<br />
-              les mieux notées au Canada
+              5 étoiles sur Google<br />
+              Avis vérifiés
             </>
           ) : (
             <>
-              One of the top-rated<br />
-              cleaning companies in Canada
+              5 Stars on Google<br />
+              Verified Reviews
             </>
           )}
         </div>
